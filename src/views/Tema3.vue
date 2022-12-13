@@ -84,7 +84,7 @@
             .tarjeta.color-verde.p-2.mb-4
               h4.mb-0.text-center Explosivo
           .col-lg-12
-            p.mb-0 . Los residuos explosivos son aquellos que tienen una constante de explosividad igual o mayor a la del dinitrobenceno, o bien que son capaces de producir una reacción o descomposición detonante o explosiva a 25ºC y a 1.03 kg/cm2 de presión (Instituto Nacional de Tecnología y Cambio Climático, 2007).
+            p.mb-0 Los residuos explosivos son aquellos que tienen una constante de explosividad igual o mayor a la del dinitrobenceno, o bien que son capaces de producir una reacción o descomposición detonante o explosiva a 25ºC y a 1.03 kg/cm2 de presión (Instituto Nacional de Tecnología y Cambio Climático, 2007).
         .row
           .col-lg-3
             .tarjeta.color-verde.p-2.mb-4
@@ -133,6 +133,124 @@
         figure.mb-2
           img(src='@/assets/curso/tema3/2.png', alt='Texto que describa la imagen')
     p.mb-4 Además, se considera residuo o desecho tóxico aquel que, al realizársele una prueba de lixiviación para característica de toxicidad (conocida como prueba TCLP), contiene uno o más de las sustancias, elementos o compuestos que se presentan en la tabla 1 en concentraciones superiores a los niveles máximos permisibles en el lixiviado establecidos en dicha tabla.
+
+    .row.justify-content-center.mb-4 
+      .col-lg-10
+        .tarjeta.color-azul.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema3/pdf.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.text-white
+                  h3.mb-1 Tabla 1
+                  p Concentraciones máximas de contaminantes para la prueba TCLP
+                .col-sm-auto
+                  a.boton.colorboton(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+    .row.align-items-center.mb-4
+      .col-lg-7
+        .row.mb-4
+          .col-lg-3
+            .tarjeta.color-verde.p-2.mb-4
+              h4.mb-0.text-center Inflamable
+          .col-lg-12
+            p.mb-0 Los residuos inflamables son aquellos capaces de causar un incendio en diferentes condiciones tales como fricción, absorción de humedad, cambios químicos espontáneos, y que al incendiarse arden tan vigorosa y persistentemente que pueden representar un riesgo (Instituto Nacional de Tecnología y Cambio Climático, 2007).
+        .row
+          .col-lg-3
+            .tarjeta.color-verde.p-2.mb-4
+              h4.mb-0.text-center Infeccioso
+          .col-lg-12
+            p.mb-0 A los residuos infecciosos se les conoce también como residuos biológicos o patógenos. Son aquellos que contienen microorganismos patógenos tales como bacterias, parásitos, virus, hongos, virus oncogénicos y recombinantes como sus toxinas, con el suficiente grado de virulencia y concentración que pueda producir una enfermedad infecciosa en huéspedes susceptibles (Ministerio del Medio Ambiente, 2002, p.20).
+      .col-lg-5
+        figure.mb-2
+          img(src='@/assets/curso/tema3/3.png', alt='Texto que describa la imagen')
+
+    p.mb-4 Los residuos infecciosos o de riesgo biológico se clasifican en:
+
+    TabsA.color-acento-contenido.mb-4
+      .tarjeta.colortabs.p-4(titulo="Biosanitarios")
+        .row 
+          .col-lg-4
+            figure.mb-2
+              img(src='@/assets/curso/tema3/tab1.png', alt='Texto que describa la imagen')
+          .col-lg-8
+            p.mb-0 son todos aquellos elementos que tienen contacto con materia orgánica, sangre o fluidos corporales del paciente humano o animal tales como: gasas, apósitos, aplicadores, algodones, drenes, vendajes ropas desechables, toallas higiénicas, pañales entre otros similares (Ministerio del Medio Ambiente, 2002, p.21).
+      
+      .tarjeta.colortabs.p-4(titulo="Anatomopatológicos")
+        .row 
+          .col-lg-4
+            figure.mb-2
+              img(src='@/assets/curso/tema3/tab2.png', alt='Texto que describa la imagen')
+          .col-lg-8
+            p.mb-0 son los provenientes de restos humanos, muestras para análisis, incluyendo biopsias, tejidos orgánicos amputados, partes y fluidos corporales, que se remueven durante necropsias, cirugías u otros procedimientos, tales como placentas, restos de exhumaciones entre otros. (Ministerio del Medio Ambiente, 2002, p.22)
+
+      .tarjeta.colortabs.p-4(titulo="Cortopunzantes")
+        .row 
+          .col-lg-4
+            figure.mb-2
+              img(src='@/assets/curso/tema3/tab3.png', alt='Texto que describa la imagen')
+          .col-lg-8
+            p.mb-0 son aquellos que por sus características punzantes o cortantes pueden dar origen a un accidente percutáneo infeccioso. Dentro de éstos se encuentran: limas, lancetas, cuchillas, agujas, restos de ampolletas, pipetas, láminas de bisturí o vidrio y cualquier otro elemento que por sus características cortopunzantes pueda lesionar y ocasionar un riesgo infeccioso (Ministerio del Medio Ambiente, 2002, p.22).
+      
+      .tarjeta.colortabs.p-4(titulo="De animales")
+        .row 
+          .col-lg-4
+            figure.mb-2
+              img(src='@/assets/curso/tema3/tab4.png', alt='Texto que describa la imagen')
+          .col-lg-8
+            p.mb-0 son aquellos provenientes de animales de experimentación, inoculados con microorganismos patógenos y/o los provenientes de animales portadores de enfermedades infectocontagiosas (Ministerio del Medio Ambiente, 2002, p.22).
+
+      .tarjeta.colortabs.p-4(titulo="Radioactivos")
+        .row 
+          .col-lg-4
+            figure.mb-2
+              img(src='@/assets/curso/tema3/tab5.png', alt='Texto que describa la imagen')
+          .col-lg-8
+            p.mb-0 son sustancias emisoras de energía predecible y continua en forma alfa, beta o de fotones, cuya interacción con materia puede dar lugar a rayos X y neutrones. Debe entenderse que estos residuos contienen o están contaminados por radionúclidos en concentraciones o actividades superiores a los niveles de exención establecidos por la autoridad competente para el control del material radiactivo, y para los cuales no se prevé ningún uso (Ministerio del Medio Ambiente, 2002, p.26)
+
+    .row.mb-4
+      .col-lg-3
+        .row
+          .col-10
+            .tarjeta.color-primario.p-3
+              h4.mb-0 Residuos no peligrosos
+
+    .row.align-items-center.mb-4
+      .col-lg-6
+        p.mb-2 Los residuos no peligrosos se clasifican en: 
+        LineaTiempoD.color-acento-contenido
+          p(numero="1" titulo="Biodegradables") son aquellos restos químicos o naturales que se descomponen fácilmente en el ambiente. En estos restos se encuentran los vegetales, residuos alimenticios no infectados, papel higiénico, papeles no aptos para reciclaje, jabones y detergentes biodegradables, madera y otros residuos que puedan ser transformados fácilmente en materia orgánica (Ministerio del Medio Ambiente, 2002, p.18).
+          
+          p(numero="2" titulo="Reciclables") son aquellos que no se descomponen fácilmente y pueden volver a ser utilizados en procesos productivos como materia prima. Entre estos residuos se encuentran: algunos papeles y plásticos, chatarra, vidrio, telas, radiografías, partes y equipos obsoletos o en desuso, entre otros (Ministerio del Medio Ambiente, 2002, p.19).
+          
+          p(numero="3" titulo="Inertes") son aquellos que no se descomponen ni se transforman en materia prima y su degradación natural requiere grandes períodos de tiempo. Entre estos se encuentran: el icopor, algunos tipos de papel como el papel carbón y algunos plásticos (Ministerio del Medio Ambiente, 2002, p.19).
+          
+          p(numero="4" titulo="Ordinarios o comunes") son aquellos generados en el desempeño normal de las actividades. Estos residuos se generan en oficinas, pasillos, áreas comunes, cafeterías, salas de espera, auditorios y en general en todos los sitios del establecimiento del generador (Ministerio del Medio Ambiente, 2002, p.19).
+
+      .col-lg-6
+        figure.mb-2
+          img(src='@/assets/curso/tema3/4.png', alt='Texto que describa la imagen')
+
+    .row.mb-4
+      .col-lg-3
+        .row
+          .col-10
+            .tarjeta.color-primario.p-3
+              h4.mb-0 Residuos especiales
+
+    p.mb-4 Según el tipo este residuo puede ser no peligroso o peligroso, ver figura 3; un residuo especial requiere de un manejo especial sea por su naturaleza, composición, tamaño, volumen y peso no puedan ser recolectados, manejados, tratados o dispuestos normalmente por la persona prestadora del servicio. Incluye los residuos producto de las actividades de corte de césped y poda de árboles ubicados en las vías y áreas públicas; aquellos provenientes del barrido y limpieza de vías y áreas públicas, y los residuos provenientes de actividades de construcción y demás obras civiles (Área metropolitana del valle de aburra, 2016, p.8).
+
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 3
+          span  Clasificación de los residuos sólidos
+        figure.mb-2
+          img(src='@/assets/curso/tema3/fig3.svg', alt='Texto que describa la imagen')
+        figcaption Nota. Clasificación de residuos sólidos, SENA (2020).
 
 </template>
 
