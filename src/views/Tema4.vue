@@ -276,6 +276,52 @@
               h4.mb-0 Residuos de Construcción y Demolición (RCD)
     p.mb-4 Si la organización genera algún tipo de actividad como remodelación, construcción o demolición requiere realizar el trámite con la autoridad ambiental por la generación de este tipo de residuos RCD, se enuncia lo más destacado de la norma. De acuerdo con la resolución 472 de 2017 Por la cual se reglamenta la gestión integral de los residuos generados en las actividades de Construcción y Demolición (RCD) y se dictan otras disposiciones en el artículo 2 se debe tener en cuenta las siguientes definiciones:
 
+    .row.mb-4
+      .col-lg-11 
+        figure.desaparece
+          img(src='@/assets/curso/tema4/fig1.svg', alt='Texto que describa la imagen')
+
+    .row.mb-4
+      .col-lg-12
+        figure.desaparece2
+          img(src='@/assets/curso/tema4/fig2.svg', alt='Texto que describa la imagen')
+
+    .row.mb-4
+      .col-lg-3
+        .row
+          .col-10
+            .tarjeta.color-primario.p-3
+              h4.mb-0 Obligaciones. 
+
+    p.mb-4 En el artículo 15 menciona:
+    p.mb-4 Artículo 15. Obligaciones de los generadores de RCD. Son obligaciones de los generadores de RCD las siguientes:
+
+    ul.lista-ul--color
+      li 
+        i.fas.fa-check
+        p.mb-0 Los grandes generadores deberán formular, implementar y mantener actualizado el Programa de Manejo Ambiental de RCD que se especifica en la norma.
+      li 
+        i.fas.fa-check
+        p.mb-0 Los pequeños generadores tienen la obligación de entregar los RCD a un gestor de RCD para que se realicen las actividades de recolección y transporte hasta los puntos limpios, sitios de aprovechamiento o disposición final según sea el caso.
+      
+    p.mb-4 Para profundizar en el tema se invita a consultar la siguiente información:
+    .row.justify-content-center.mb-4 
+      .col-lg-10
+        .tarjeta.color-azul.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema3/pdf.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.text-white
+                  h3.mb-1 Matriz de requisitos legales
+                  p En el material complementario revise la Matriz de requisitos legales del año 2020
+                .col-sm-auto
+                  a.boton.colorboton(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+
 </template>
 
 <script>
