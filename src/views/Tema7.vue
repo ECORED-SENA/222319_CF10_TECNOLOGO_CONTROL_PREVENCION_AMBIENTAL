@@ -403,6 +403,183 @@
               h4.mb-0 Norma técnica NTC Colombiana 1692.
     p.mb-4 En la siguiente tabla encuentra los pictogramas más usados de acuerdo con la norma NTC1692, ver tabla 4.
 
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        .tarjeta.color-azul.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema3/pdf.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.text-white
+                  h3.mb-1 Tabla 4 
+                  p Pictogramas por medio de la NTC1692 la cual es la más usada en residuos.
+                .col-sm-auto
+                  a.boton.colorboton(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+        p.mb-4 Los ejemplos más usuales se presentan en las siguientes figuras 15, 16 y 17:
+        .titulo-sexto.color-acento-contenido.mb-2
+          h5 Figura 15
+          span Etiqueta de ejemplo para residuos peligrosos.
+        figure.mb-0
+          img(src='@/assets/curso/tema7/tabla2.svg', alt='Texto que describa la imagen')
+        figcaption.mb-4 Nota. Plan de Gestión Integral de Residuos. IMPALA (2017).
+        .titulo-sexto.color-acento-contenido.mb-2
+          h5 Figura 16
+          span Etiqueta de ejemplo para residuos peligrosos 2.
+        figure.mb-0
+          img(src='@/assets/curso/tema7/tabla3.svg', alt='Texto que describa la imagen')
+        figcaption.mb-4 Nota. Procedimiento Manejo de residuos. Universidad Tecnológica de Pereira (2017).
+    p.mb-4 Para los residuos no peligrosos su rotulación es colocar el nombre del residuo, quien lo genera , fecha de recolección y el logo de reciclaje si es para reciclar y si es ordinario o común no se requiere de logo solo de la identificación del residuo, algunas veces en los rótulos se coloca el peso o volumen del residuo si este no está en el rotulo debe estar en los registros de gestión de residuos sea en el registro de recolección o de almacenamiento de residuos o de entrega de residuos para así llevar los indicadores de gestión de generación de residuos.
+
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-2
+          h5 Figura 17
+          span Rotulado de la universidad los andes ejemplo de residuos peligrosos
+        figure.mb-0
+          img(src='@/assets/curso/tema7/tabla4.svg', alt='Texto que describa la imagen')
+        figcaption.mb-4 Nota. Procedimiento para la gestión y disposición de residuos sólidos y peligrosos. Universidad de los Andes (2012).
+    separador
+
+    #t_7_5.titulo-segundo.color-acento-contenido(data-aos="fade")
+      .h2 7.5 Separación en la fuente
+
+    p.mb-4 Para identificar los residuos es importante recorrer la organización y detectar los puntos de generación de residuos, hacerse las preguntas que tipo de residuos se detecta en cada una de las etapas de producción y/o procesos en la organización, la mayoría de las veces se identifica por medio de la detección de los puntos ecológicos, pero también de las áreas en donde se generen residuos. Para esto es importante realizar una caracterización cualitativa por tanto se deberá definir por áreas el tipo de residuo que se genera. Para realizar esta identificación se puede facilitar por medio de un eco balance de proceso.
+    p.mb-4 En la figura 18 se expone un ejemplo de eco balance de una organización litográfica.
+    .titulo-sexto.color-acento-contenido.mb-2
+      h5 Figura 18
+      span Eco balance del proceso litográfico
+    .row.mb-4
+      .col-lg-11
+        figure.mb-0
+          img(src='@/assets/curso/tema7/fig1.svg', alt='Texto que describa la imagen')
+        figcaption.mb-4 Nota. Diagnóstico ambiental en la industria litográfica. Adriana Guerrero (2013).
+    .row.mb-4
+      .col-lg-4
+        .tarjeta.color-verde3.p-2
+          p.mb-0 <b>ECOMAPA</b>
+    p.mb-4 Por medio de un ECOMAPA, ver figuras 19 y 20, se realiza la Identificación de aspectos ambientales que se generan en la organización entre estos se puede identificar la generación de los residuos por medio de pictogramas en el plano, mediante el empleo de un ecomapa como herramienta de diagnóstico.
+
+    .row.justify-content-center.mb-2
+      .col-lg-6
+        .titulo-sexto.color-acento-contenido.mb-2
+          h5 Figura 19
+          span Ecomapa empresa litográfica ejemplo
+        figure.mb-0
+          img(src='@/assets/curso/tema7/fig2.svg', alt='Texto que describa la imagen')
+        figcaption.mb-4 Nota. Diagnóstico ambiental en la industria litográfica. Adriana Guerrero (2013). 
+    .row.justify-content-center.mb-2
+      .col-lg-6
+        .titulo-sexto.color-acento-contenido.mb-2
+          h5 Figura 20
+          span Ecomapa laboratorio ejemplo
+        figure.mb-0
+          img(src='@/assets/curso/tema7/fig3.svg', alt='Texto que describa la imagen')
+        figcaption.mb-4 Nota. Plan de manejo integral de residuos sólidos y líquidos. Empresa de acueducto y alcantarillado y aseo de Madrid (2018).
+    p.mb-4 Posteriormente se realizará una caracterización cuantitativa que se explica en el posterior tema para realizar metodología de cuantificación de estos, como se muestra en la siguiente tabla 5.
+    .titulo-sexto.color-acento-contenido.mb-2
+      h5 Tabla 5
+      span Caracterización cuantitativa
+    .tabla-a.color-acento-botones 
+      table(style='background-color: #E2EACB')
+        caption Nota. Guía para elaboración y presentación del plan de gestión integral de residuos hospitalarios y similares-pgirhs aplicado a microgeneradores. Área Metropolitana de Bucaramanga (2002). 
+        thead
+          tr
+            th
+            <th colspan="4">CARACTERIZACIÓN CUANTITATIVA</th>
+            <th colspan="4"> </th>
+        tbody
+          tr
+            td <b>DÍA</b>
+            <td colspan="4"> <b>Residuos no Peligrosos</b> </td>
+            <td colspan="4"> <b>Residuos Peligrosos</b> </td>
+          tr
+            <td rowspan="2"> </td>
+            <td rowspan="2"> <b>Biodegradables (Kg)</b> </td>
+            <td rowspan="2"> <b>Reciclables (Kg)</b> </td> 
+            <td rowspan="2"> <b>Inertes (Kg)</b> </td>
+            <td rowspan="2"> <b>Ordinarios(Kg)</b> </td>
+            <td colspan="2"> <b>INFECCIOSOS O DE RIESGO BIOLOGICO</b> </td>
+            <td colspan="2"> <b>QUIMICO</b> </td>
+          tr
+            td <b>Biosanitarios (kg)</b>
+            td <b>Cortopunzantes (kg)</b>
+            td <b>Fármacos (kg)</b>
+            td <b>Reactivos (kg)</b>
+          tr
+            td <b>1</b>
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
+            td <b>2</b>
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
+            td <b>3</b>
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
+            td <b>4</b>
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
+            td <b>5</b>
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
+            td <b>6</b>
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
+            td <b>7</b>
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+
+
 
 </template>
 
