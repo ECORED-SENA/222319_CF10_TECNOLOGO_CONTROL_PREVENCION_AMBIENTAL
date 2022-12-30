@@ -57,7 +57,7 @@
     p.mb-4 La responsabilidad del generador de los residuos está relacionada a continuación:
 
     .row.mb-4
-      .col-lg-4
+      .col-lg-4.col-md-8.col-10
         .row
           .col-12
             .tarjeta.color-primario.p-3
@@ -66,7 +66,7 @@
     p.mb-4 De acuerdo con el decreto 1076 en el artículo 2.2.6.1.3.1. Obligaciones del Generador. De conformidad con lo establecido en la ley, en el marco de la gestión integral de los residuos o desechos peligrosos, el generador debe:
 
     .tarjeta.color-opa.p-4.mb-4
-      .row.align-items-center
+      .row.align-items-center.justify-content-center
         .col-lg-8
           ol.lista-ol--cuadro
             li 
@@ -113,7 +113,7 @@
               .lista-ol--cuadro__vineta
                 span k
               | Contratar los servicios de almacenamiento, aprovechamiento, recuperación, tratamiento y/o disposición final, con instalaciones que cuenten con las licencias, permisos y autorizaciones. 
-        .col-lg-4
+        .col-lg-4.col-md-8.col-8
           figure.mb-2
             img(src='@/assets/curso/tema4/1.png', alt='Texto que describa la imagen')   
     .row.mb-4
@@ -130,7 +130,7 @@
         iframe(width="942" height="530" src="https://www.youtube.com/embed/KdqhUWrG08U" title="Información de programa de Tecnología en Prevención y Control Ambiental" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6.col-md-8.col-10
         .row
           .col-11
             .tarjeta.color-primario.p-3
@@ -160,68 +160,68 @@
 
     .row.mb-4
       .col-lg-4
-        .tarjeta.color1.p-4
+        .tarjeta.color1.p-4.mb-2
           p.mb-0 <b>Resolución 1511 de 2010,</b> Ministerio de Ambiente, Vivienda y Desarrollo Territorial, “por la cual se establecen los sistemas de recolección selectiva y gestión ambiental de residuos de bombillas y se adoptan otras disposiciones”.
       .col-lg-4
-        .tarjeta.color1.p-4
+        .tarjeta.color1.p-4.mb-2
           p.mb-0 <b>Resolución 1512 de 2010,</b> Ministerio de Ambiente, Vivienda y Desarrollo Territorial, “por la cual se establecen los sistemas de recolección selectiva y gestión ambiental de residuos de bombillas y se adoptan otras disposiciones”.
       .col-lg-4
-        .tarjeta.color1.p-4
+        .tarjeta.color1.p-4.mb-2
           p.mb-0 <b>Resolución 1297 de 2010,</b> Ministerio de Medio Ambiente, Vivienda y Desarrollo Territorial, “por la cual se establecen los sistemas de recolección selectiva y gestión ambiental de residuos de pilas y acumuladores y se adoptan otras disposiciones”.
 
     p.mb-4 La ley también estipula que los RAEE son residuos de manejo diferenciado y prohíbe su disposición final en rellenos sanitarios, para que sean recolectados y gestionados por los productores y para priorizar su aprovechamiento mediante empresas gestoras que cuenten con licencia ambiental para ello, ver figura 4. 
 
     .row.mb-2
       .col-lg-8
-        .tarjeta.color-verde.p-4.mb-0
+        .tarjeta.color-verde.p-4.mb-2
           .row
-            .col-lg-4
+            .col-lg-4.col-md-4.col-6
               h4.text-center.mb-4 Electrodomésticos
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon1.png', alt='Texto que describa la imagen') 
               h4.text-center.mb-4 Equipos de iluminación
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon4.png', alt='Texto que describa la imagen')   
-            .col-lg-4
+            .col-lg-4.col-md-4.col-6
               h4.text-center.mb-4 Electrónica de consumo y TIC
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon2.png', alt='Texto que describa la imagen') 
               h4.text-center.mb-4 Juguetes eléctricos o electrónicos
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon5.png', alt='Texto que describa la imagen')  
-            .col-lg-4
+            .col-lg-4.col-md-4.col-6
               h4.text-center.mb-4 Herramientas Eléctricas
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon3.png', alt='Texto que describa la imagen') 
               h4.text-center.mb-4 Pilas y acumuladores
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon6.png', alt='Texto que describa la imagen') 
-        .tarjeta.color-verde2.p-2
+        .tarjeta.color-verde2.p-2.mb-4
           p.mb-0.text-center <b>AEE de consumo masivo o domésticos</b>
         .tarjeta.color-amarillo.p-4.mb-0
           .row
-            .col-lg-4
+            .col-lg-4.col-md-4.col-6
               h4.text-center.mb-4 Equipos Eléctricos
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon7.png', alt='Texto que describa la imagen') 
-            .col-lg-4
+            .col-lg-4.col-md-4.col-6
               h4.text-center.mb-4 Maquinaria y herramientas eléctricas
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon8.png', alt='Texto que describa la imagen') 
-            .col-lg-4
+            .col-lg-4.col-md-4.col-6
               h4.text-center.mb-4 Dispositivos Electromédicos
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon9.png', alt='Texto que describa la imagen') 
           .row.justify-content-center
-            .col-lg-5
+            .col-lg-5.col-md-4.col-6
               h4.text-center.mb-4 Instrumentos de vigilancia y control
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon10.png', alt='Texto que describa la imagen') 
-            .col-lg-5
+            .col-lg-5.col-md-4.col-6
               h4.text-center.mb-4 Máquinas expendedoras
               figure.mb-2
                 img(src='@/assets/curso/tema4/icon11.png', alt='Texto que describa la imagen') 
-        .tarjeta.color-amarillo2.p-2
+        .tarjeta.color-amarillo2.p-2.mb-4
           p.mb-0.text-center <b>AEE de consumo masivo o domésticos</b>
       .col-lg-4
         .tarjeta.color-cian.p-5
@@ -243,14 +243,14 @@
     .row.justify-content-center.mb-4
       .col-lg-12
         .row.justify-content-center
-          .col-lg-5
+          .col-lg-5.col-md-6.col-8.mb-4
             .tarjeta.tarjeta-slide.arriba.fondoimg(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
               .tarjeta-slide__contenedor
                 .tarjeta-slide__contenido.px-4.py-4
                   p.mb-0 Los residuos sólidos deben estar debidamente separados por tipo de material, de acuerdo con los lineamientos establecidos en el Plan de Gestión Integral de Residuos Sólidos (PGIRS) o en su defecto sujetándose a lo establecido en el programa de prestación por la persona prestadora de la actividad de aprovechamiento. 
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/3.png')})`}")
-          .col-lg-5
+          .col-lg-5.col-md-6.col-8
             .tarjeta.tarjeta-slide.arriba.fondoimg2(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
               .tarjeta-slide__contenedor

@@ -45,7 +45,7 @@
                 td 
                 td 
     .row.mb-4
-      .col-lg-5
+      .col-lg-5.col-md-6.col-8
         .tarjeta.color-verde3.p-2.mb-0
           p.mb-0 <b>Ruta de recolección de residuos</b>
 

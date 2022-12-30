@@ -10,7 +10,7 @@
 
     .row.mb-4
       .col-lg-6
-        p.mb-0 Las características de residuos sólidos y los volúmenes de producción varían geográficamente, en función de los hábitos y cultura de la población, sus condiciones socioeconómicas, las condiciones climáticas, así como de la disponibilidad y acceso a materias primas. De estas variaciones se deriva la importancia de los estudios puntuales de caracterización de residuos sólidos, donde se proyecte su gestión exitosa, para de este modo obtener información confiable sobre la cantidad y composición de los materiales, así como de sus opciones de aprovechamiento (Runfola, J., & Gallardo, A., 2009). Un procedimiento de campo utilizado para determinar la cantidad y composición de residuos sólidos en una región es el método del cuarteo, ver figura 21, en términos generales este procedimiento requiere de la descarga y el análisis de una cantidad de residuos en una zona específica (Hidrolab, 2018).
+        p.mb-2 Las características de residuos sólidos y los volúmenes de producción varían geográficamente, en función de los hábitos y cultura de la población, sus condiciones socioeconómicas, las condiciones climáticas, así como de la disponibilidad y acceso a materias primas. De estas variaciones se deriva la importancia de los estudios puntuales de caracterización de residuos sólidos, donde se proyecte su gestión exitosa, para de este modo obtener información confiable sobre la cantidad y composición de los materiales, así como de sus opciones de aprovechamiento (Runfola, J., & Gallardo, A., 2009). Un procedimiento de campo utilizado para determinar la cantidad y composición de residuos sólidos en una región es el método del cuarteo, ver figura 21, en términos generales este procedimiento requiere de la descarga y el análisis de una cantidad de residuos en una zona específica (Hidrolab, 2018).
       .col-lg-1
         span
       .col-lg-4
@@ -28,7 +28,7 @@
     .row.align-items-center.mb-4
       .col-lg-6
         p.mb-4 Para determinar cualitativa y cuantitativamente los residuos no peligrosos que se generan en la organización es necesario realizar la caracterización y aforo.  En éstos se deben considerar todos los recursos humanos y técnicos disponibles, a fin de favorecer la participación de una buena parte de los empleados que tienen relación directa con el manejo de residuos, lo que permite disminuir los costos totales y adelantar parte del trabajo de formación y educación que son necesarios para el Manejo Integral de Residuos. 
-        .cajon.color-acento-contenido(style='background-color: #DFF2ED').px-5.py-4.mb-0
+        .cajon.color-acento-contenido(style='background-color: #DFF2ED').px-5.py-4.mb-2
           p.mb-0 Para garantizar que todos los residuos se vean involucrados en la caracterización y aforo, es necesario identificar todas las actividades o procesos que se ejecutan en la organización y cuáles son los residuos que se generan en cada uno de ellos, estableciendo los ciclos de generación de residuos. 
       .col-lg-6
         figure.mb-0
@@ -97,7 +97,7 @@
           .tarjeta.color-amarillo4.p-4
             .row.justify-content-center.mb-3
               p.mb-0 El montón se divide en cuatro partes (método de cuarteo) y se escogen las dos partes opuestas para formar un nuevo montón más pequeño. La muestra menor se vuelve a mezclar y se divide en cuatro partes nuevamente, luego se escogen dos opuestas y se forma otra muestra más pequeña. Esta operación se repite hasta obtener una muestra de 50 kg de residuos sólidos.
-        p.mb-0 Repetir operación hasta obtener el volumen deseado
+        p.mb-2 Repetir operación hasta obtener el volumen deseado
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-0
           h5 Figura 23
@@ -109,60 +109,60 @@
     p.text-center Uso de los siguientes materiales:
 
     .row.justify-content-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-md-8.col-8.mb-2
         .color-verde5.p-2
-          .row.align-items-center
-            .col-lg-2
+          .row.align-items-center.justify-content-center
+            .col-lg-2.col-md-6.col-8
               figure.mb-0
                 img(src='@/assets/curso/tema8/fig1.svg', alt='Texto que describa la imagen')
             .col-lg-10
               p.mb-0 1 balanza. En este caso se utilizó una balanza digital con capacidad máxima de 35 Kg.
-      .col-lg-2
+      .col-lg-2.col-md-8.col-8.mb-2
         .color-verde5.p-2
-          .row.align-items-center
-            .col-lg-4
+          .row.align-items-center.justify-content-center
+            .col-lg-4.col-md-6.col-8
               figure.mb-0
                 img(src='@/assets/curso/tema8/fig1.svg', alt='Texto que describa la imagen')
             .col-lg-8
               p.mb-0 2 pares de guantes.
-      .col-lg-2
+      .col-lg-2.col-md-8.col-8.mb-2
         .color-verde5.p-2
-          .row.align-items-center
-            .col-lg-4
+          .row.align-items-center.justify-content-center
+            .col-lg-4.col-md-6.col-8
               figure.mb-0
                 img(src='@/assets/curso/tema8/fig1.svg', alt='Texto que describa la imagen')
             .col-lg-8
               p.mb-0 2 mascarillas.
-      .col-lg-2
+      .col-lg-2.col-md-8.col-8.mb-2
         .color-verde5.p-2
-          .row.align-items-center
-            .col-lg-4
+          .row.align-items-center.justify-content-center
+            .col-lg-4.col-md-6.col-8
               figure.mb-0
                 img(src='@/assets/curso/tema8/fig1.svg', alt='Texto que describa la imagen')
             .col-lg-8
               p.mb-0 1 pala metal.
-      .col-lg-2
+      .col-lg-2.col-md-8.col-8.mb-2
         .color-verde5.p-2
-          .row.align-items-center
-            .col-lg-4
+          .row.align-items-center.justify-content-center
+            .col-lg-4.col-md-6.col-8
               figure.mb-0
                 img(src='@/assets/curso/tema8/fig1.svg', alt='Texto que describa la imagen')
             .col-lg-8
               p.mb-0 1 escoba.
 
     .row.justify-content-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-md-8.col-8.mb-2
         .color-verde5.p-2
-          .row.align-items-center
-            .col-lg-2
+          .row.align-items-center.justify-content-center
+            .col-lg-2.col-md-6.col-8
               figure.mb-0
                 img(src='@/assets/curso/tema8/fig1.svg', alt='Texto que describa la imagen')
             .col-lg-10
               p.mb-0 1 lona 4m x 4m, cinta de embalar, marcadores.
-      .col-lg-4
+      .col-lg-4.col-md-8.col-8.mb-2
         .color-verde5.p-2
-          .row.align-items-center
-            .col-lg-2
+          .row.align-items-center.justify-content-center
+            .col-lg-2.col-md-6.col-8
               figure.mb-0
                 img(src='@/assets/curso/tema8/fig1.svg', alt='Texto que describa la imagen')
             .col-lg-10
@@ -215,7 +215,7 @@
           .tarjeta.color-amarillo4.p-4
             .row.justify-content-center.mb-3
               p.mb-0 El dato del peso de los residuos dividido por el volumen del tonel nos dará la densidad de los residuos.
-        .tarjeta.color-cuadro.p-4
+        .tarjeta.color-cuadro.p-4.mb-4
           .row.justify-content-center 
             .col-lg-9
               figure.mb-0
@@ -244,10 +244,10 @@
       .col-lg-6
         .cajon.color-acento-contenido(style='background-color: #DFF2ED').px-5.py-5.mb-2
           .row.align-items-center
-            .col-lg-3
+            .col-lg-3.col-md-4.col-4
               figure.mb-0
                 img(src='@/assets/curso/tema8/icon.png', alt='Texto que describa la imagen')
-            .col-lg-9
+            .col-lg-9.col-md-8.col-8
               p.mb-0 Limpieza del sitio utilizado. Una vez se termina la caracterización se procede a lavar y desinfectar el lugar de trabajo utilizado.
     separador
 
@@ -261,7 +261,7 @@
         .tarjeta.color-cuadro.p-2
           .row.justify-content-center 
             .col-lg-8            
-              figure.mb-0
+              figure.mb-2
                 img(src='@/assets/curso/tema8/formula3.svg', alt='Texto que describa la imagen')
       .col-lg-6
         figure.mb-0

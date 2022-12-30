@@ -11,7 +11,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         p.mb-4 Pensar en la basura genera un rechazo inmediato, sin embargo, se debe convivir con ella y no solo en los hogares, sino a la vuelta de cualquier esquina. Todo esto es el resultado de las diversas actividades que realiza el hombre en su diario vivir, donde produce una cantidad excesiva de desechos, los cuales se convierten en un inconveniente mayor en su almacenamiento, disposición o eliminación. Es por esto que es necesario aprender a manejar y aprovechar adecuadamente las basuras que se producen, no verlas como en la actualidad y verlas como residuos que son objetos y que se puede transformar en otro bien con valor económico, en especial los sólidos.
-        .cajon.color-acento-contenido(style='background-color: #DFF2ED').px-5.py-4
+        .cajon.color-acento-contenido(style='background-color: #DFF2ED').px-5.py-4.mb-4 
           p.mb-0 Por tanto, es importante realizar el diagnóstico de los residuos en un lugar determinado para así crear estrategias que prevengan y minimicen el impacto de los residuos y no se genere una problemática socio ambiental, aparte de esto en la sociedad existen comunidades de bajos ingresos que viven y se alimentan de los residuos, lo cual también requiere de una gestión socio ambiental.
       .col-lg-6
         figure
@@ -23,14 +23,14 @@
       .col-lg-11
         p.mb-0 Para complementar la información se pueden visualizar los siguientes videos:
 
-    .row 
+    .row.justify-content-center
       .col-lg-12
         .tarjeta.color-azul.p-4
-          .row.align-items-center
-            .col-lg-1
+          .row.align-items-center.justify-content-center
+            .col-lg-1.col-md-2.col-6
               figure
                 img(src='@/assets/curso/tema1/icon1.png', alt='Texto que describa la imagen')
-            .col-lg-11
+            .col-lg-11.col-md-10.col-12
               .row
                 .col-lg-12
                   p.text-white <b>Para profundizar en el tema, se invita a revisar la sección de materiales complementarios, donde encontrará los videos: Puntaje Nacional Chile (4 abril 2013), denominado “Unidades de concentración” y otros objetos de aprendizaje que son de sumo interés para su aprendizaje.</b>

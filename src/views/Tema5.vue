@@ -31,30 +31,30 @@
     p.mb-4 Dentro de las funciones del GAGAS son:
 
     .row.mb-4
-      .col-lg-3
+      .col-lg-3.mb-2
         .tarjeta.color-verde4.p-3
           p.mb-0 <b>a.</b>Realizar el diagnóstico ambiental y sanitario.
-      .col-lg-3
+      .col-lg-3.mb-2
         .tarjeta.color-verde4.p-3
           p.mb-0 <b>b.</b>Formular el Compromiso Institucional.
-      .col-lg-3
+      .col-lg-3.mb-2
         .tarjeta.color-verde4.p-3
           p.mb-0 <b>c.</b>Diseñar el Plan De Gestión Integral De Residuos.
-      .col-lg-3
+      .col-lg-3.mb-2
         .tarjeta.color-verde4.p-3
           p.mb-0 <b>d.</b>Diseñar la estructura funcional y asignar responsabilidades. 
 
     .row.mb-4
-      .col-lg-3
+      .col-lg-3.mb-2
         .tarjeta.color-verde4.p-3
           p.mb-0 <b>e.</b>Definir y establecer mecanismos de coordinación. 
-      .col-lg-3
+      .col-lg-3.mb-2
         .tarjeta.color-verde4.p-3
           p.mb-0 <b>f.</b>Gestionar el presupuesto del plan.
-      .col-lg-3
+      .col-lg-3.mb-2
         .tarjeta.color-verde4.p-3
           p.mb-0 <b>g.</b>Velar por la ejecución del plan.
-      .col-lg-3
+      .col-lg-3.mb-2
         .tarjeta.color-verde4.p-3
           p.mb-0 <b>h.</b>Elaborar informes y reportes a las autoridades de vigilancia y control.
 

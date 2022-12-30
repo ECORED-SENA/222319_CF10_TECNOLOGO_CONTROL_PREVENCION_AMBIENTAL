@@ -34,38 +34,38 @@
     p.mb-4 Para dar respuesta a la pirámide de jerarquización de la gestión de residuos, es importante identificar en el diagnóstico qué prácticas y actividades aportan a la prevención y minimización de residuos en la organización, se debe tener en cuenta la siguiente información:
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6.mb-2
         .tarjeta.color-verde4.p-3
-          .row.align-items-center
-            .col-lg-2
+          .row.align-items-center.justify-content-center
+            .col-lg-2.col-md-2.col-6
               figure.mb-2
                 img(src='@/assets/curso/tema7/icon1.png', alt='Texto que describa la imagen')
             .col-lg-10
               p.mb-0 La adopción de buenas prácticas, la optimización de los procesos, el cambio a tecnologías limpias, la sustitución de materias primas y la modificación de productos. 
 
-      .col-lg-6
+      .col-lg-6.mb-2
         .tarjeta.color-verde4.p-3
-          .row.align-items-center
-            .col-lg-2
+          .row.align-items-center.justify-content-center
+            .col-lg-2.col-md-2.col-6
               figure.mb-2
                 img(src='@/assets/curso/tema7/icon2.png', alt='Texto que describa la imagen')
             .col-lg-10
               p.mb-0 La reutilización de elementos que se generan en los procesos de la organización. 
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6.mb-2
         .tarjeta.color-verde4.p-3
-          .row.align-items-center
-            .col-lg-2
+          .row.align-items-center.justify-content-center
+            .col-lg-2.col-md-2.col-6
               figure.mb-2
                 img(src='@/assets/curso/tema7/icon3.png', alt='Texto que describa la imagen')
             .col-lg-10
               p.mb-0 Igualmente, el reciclaje de materiales, aprovechamiento de subproductos utilizándolos como materias primas dentro del mismo proceso productivo o dentro de otro.    
 
-      .col-lg-6
+      .col-lg-6.mb-2
         .tarjeta.color-verde4.p-3
-          .row.align-items-center
-            .col-lg-2
+          .row.align-items-center.justify-content-center
+            .col-lg-2.col-md-2.col-6
               figure.mb-2
                 img(src='@/assets/curso/tema7/icon4.png', alt='Texto que describa la imagen')
             .col-lg-10
@@ -80,36 +80,36 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .row.mb-4 
-          .col-lg-6
+          .col-lg-6.mb-2
             .tarjeta.color-amarillo3.p-3
-              .row.align-items-center
-                .col-lg-2
+              .row.align-items-center.justify-content-center
+                .col-lg-2.col-md-2.col-6
                   figure.mb-2
                     img(src='@/assets/curso/tema7/icon5.png', alt='Texto que describa la imagen')
                 .col-lg-10
                   p.mb-0 Tipo de residuos que se separan. 
-          .col-lg-6
+          .col-lg-6.mb-2
             .tarjeta.color-amarillo3.p-3
-              .row.align-items-center
-                .col-lg-2
+              .row.align-items-center.justify-content-center
+                .col-lg-2.col-md-2.col-6
                   figure.mb-2
                     img(src='@/assets/curso/tema7/icon5.png', alt='Texto que describa la imagen')
                 .col-lg-10
                   p.mb-0 Existencia y cantidad de recipientes adecuados (capacidad, código de colores, entre otros). 
           
         .row 
-          .col-lg-6
+          .col-lg-6.mb-2
             .tarjeta.color-amarillo3.p-3
-              .row.align-items-center
-                .col-lg-2
+              .row.align-items-center.justify-content-center
+                .col-lg-2.col-md-2.col-6
                   figure.mb-2
                     img(src='@/assets/curso/tema7/icon5.png', alt='Texto que describa la imagen')
                 .col-lg-10
                   p.mb-0 Ubicación estratégica dentro de la organización y distribución por zonas. 
-          .col-lg-6
+          .col-lg-6.mb-2
             .tarjeta.color-amarillo3.p-3
-              .row.align-items-center
-                .col-lg-2
+              .row.align-items-center.justify-content-center
+                .col-lg-2.col-md-2.col-6
                   figure.mb-2
                     img(src='@/assets/curso/tema7/icon5.png', alt='Texto que describa la imagen')
                 .col-lg-10
@@ -124,7 +124,7 @@
     .row.align-items-center.mb-4 
       .col-lg-6
         p.mb-4 La separación en la fuente es la base fundamental de la adecuada gestión de residuos y consiste en la separación inicial de manera selectiva de los residuos procedentes de cada uno de los centros generadores de la organización, iniciándose una cadena de actividades y procesos cuya efectividad depende de la adecuada clasificación de los residuos.  
-        .cajon.color-acento-contenido(style='background-color: #DFF2ED').px-5.py-4.mb-0
+        .cajon.color-acento-contenido(style='background-color: #DFF2ED').px-5.py-4.mb-4
           p.mb-4 El diagnóstico permite definir el tipo y cantidad de recipientes que se requieren para la adecuada separación de los residuos en todas las áreas de la organización. Los recipientes utilizados preferiblemente deben cumplir con el color correspondiente a la clase de residuos que se va a depositar en ellos y que se denomina Código de Colores. Además, deben ser visibles y estar ubicados estratégicamente en las instalaciones de la organización; en caso de que los recipientes que posee la organización no cumplan con el Código de Colores pueden pintarse, emplear cintas adhesivas visibles o utilizar el fondo del rótulo para establecer el color correspondiente al tipo de residuo mientras realiza la correspondiente compra del recipiente. 
           p.mb-0 Para cumplir con el Código de Colores no se requiere de bolsas del mismo color del recipiente, estas pueden ser reemplazadas por bolsas transparentes o de color, teniendo cuidado en el momento de recolección selectiva de cada residuo. 
       .col-lg-6
@@ -195,25 +195,25 @@
             .col-lg-10
               .tarjeta--container.row
                 .row
-                  .col-md.mg
+                  .col-md.mg.mb-2
                     figure
                       img(src='@/assets/curso/tema7/residuo1.png', alt='Texto que describa la imagen')
-                  .col-md.mg
+                  .col-md.mg.mb-2
                     figure
                       img(src='@/assets/curso/tema7/residuo2.png', alt='Texto que describa la imagen')
-                  .col-md.mg
+                  .col-md.mg.mb-2
                     figure
                       img(src='@/assets/curso/tema7/residuo3.png', alt='Texto que describa la imagen')
-                  .col-md.mg
+                  .col-md.mg.mb-2
                     figure
                       img(src='@/assets/curso/tema7/residuo4.png', alt='Texto que describa la imagen')
-                  .col-md.mg
+                  .col-md.mg.mb-2
                     figure
                       img(src='@/assets/curso/tema7/residuo5.png', alt='Texto que describa la imagen')
-                  .col-md.mg
+                  .col-md.mg.mb-2
                     figure
                       img(src='@/assets/curso/tema7/residuo6.png', alt='Texto que describa la imagen')
-                  .col-md.mg
+                  .col-md.mg.mb-2
                     figure
                       img(src='@/assets/curso/tema7/residuo7.png', alt='Texto que describa la imagen')
     figcaption.mb-4 Nota. Manual para el manejo integral de residuos sólidos en el valle de aburra. Área metropolitana del valle de aburra (2016).  
@@ -229,7 +229,7 @@
     .tarteja.color-cuadroama.p-4.mb-4
       .row 
         .col-lg-6
-          figure
+          figure.mb-2
             img(src='@/assets/curso/tema7/2.png', alt='Texto que describa la imagen')
         .col-lg-6
           p.mb-4 Frecuentemente se emplean bolsas, contenedores, canecas, cajas, entre otros. Sin embargo, según la norma GTC 24- Gestión Ambiental Residuos sólidos Guía para la separación en la fuente del 2009, se debe tener en cuenta lo siguiente, para su selección:
@@ -262,7 +262,7 @@
     p.mb-4 Los residuos reciclables usan el logo de reciclaje en los recipientes y para ordinarios usan algunas veces el logo circular, pero no es necesario el logo en ordinarios (Alcaldía Santiago de Cali,  2015).
 
     .row.mb-4
-      .col-lg-2
+      .col-lg-2.col-md-3.col-6
         .row
           .col-10
             .tarjeta.color-primario.p-3
@@ -355,11 +355,11 @@
           .col-12
             .tarjeta.color-primario.p-3
               h4.mb-0 Sistema Globalmente Armonizado de clasificación y etiquetado de productos -SGA
-    p.mb-2 Pictogramas como los del sistema globalmente armonizado, ver figuras 13 y 14.
+    p.mb-4 Pictogramas como los del sistema globalmente armonizado, ver figuras 13 y 14.
 
     .row.align-items-center.mb-4
       .col-lg-6
-        figure.mb-0
+        figure.mb-4
           img(src='@/assets/curso/tema7/7.png', alt='Texto que describa la imagen')
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-0
@@ -370,7 +370,7 @@
         figcaption.mb-4 Nota. Etiqueta SGA. MARBE Departamento químico (2016).
     .row.align-items-center.mb-4
       .col-lg-6
-        .cajon.color-acento-contenido(style='background-color: #DFF2ED').px-5.py-4.mb-0
+        .cajon.color-acento-contenido(style='background-color: #DFF2ED').px-5.py-4.mb-4
           p.mb-2 Pictogramas
           ul.lista-ul--color
             li 
@@ -457,7 +457,7 @@
           img(src='@/assets/curso/tema7/fig1.svg', alt='Texto que describa la imagen')
         figcaption.mb-4 Nota. Diagnóstico ambiental en la industria litográfica. Adriana Guerrero (2013).
     .row.mb-4
-      .col-lg-4
+      .col-lg-4.col-md-6.col-8
         .tarjeta.color-verde3.p-2
           p.mb-0 <b>ECOMAPA</b>
     p.mb-4 Por medio de un ECOMAPA, ver figuras 19 y 20, se realiza la Identificación de aspectos ambientales que se generan en la organización entre estos se puede identificar la generación de los residuos por medio de pictogramas en el plano, mediante el empleo de un ecomapa como herramienta de diagnóstico.

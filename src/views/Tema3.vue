@@ -38,9 +38,9 @@
     p.mb-4 Los residuos son resultado de actividades domésticas, comerciales, industriales, institucionales, de prestación de servicios, entre otras. 
 
     .row.mb-4
-      .col-lg-3
+      .col-lg-3.col-md-5.col-6
         .row
-          .col-9
+          .col-lg-9.col-md-10.col-12
             .tarjeta.color-primario.p-3
               h4.mb-0 Residuos Peligrosos
 
@@ -62,13 +62,13 @@
     .row.align-items-center.mb-2
       .col-lg-7
         .row.mb-4
-          .col-lg-3
+          .col-lg-3.col-md-4.col-5
             .tarjeta.color-verde.p-2.mb-4
               h4.mb-0.text-center Corrosivo
           .col-lg-12
             p.mb-0 Los residuos que se consideran como peligrosos en función de su corrosividad son aquellos muy ácidos (pH < 2.0) o muy alcalinos (pH > 12.5) que pueden reaccionar peligrosamente con otros residuos o provocar la migración de contaminantes tóxicos, o bien que son capaces de corroer el acero en ciertas condiciones y en cierto tiempo, con lo cual pueden llegar a fugarse de sus contenedores y liberar otros residuos (Instituto Nacional de Tecnología y Cambio Climático, 2007).
         .row
-          .col-lg-3
+          .col-lg-3.col-md-4.col-5
             .tarjeta.color-verde.p-2.mb-4
               h4.mb-0.text-center Reactivo
           .col-lg-12
@@ -80,13 +80,13 @@
     .row.align-items-center.mb-2
       .col-lg-7
         .row.mb-4
-          .col-lg-3
+          .col-lg-3.col-md-4.col-5
             .tarjeta.color-verde.p-2.mb-4
               h4.mb-0.text-center Explosivo
           .col-lg-12
             p.mb-0 Los residuos explosivos son aquellos que tienen una constante de explosividad igual o mayor a la del dinitrobenceno, o bien que son capaces de producir una reacción o descomposición detonante o explosiva a 25ºC y a 1.03 kg/cm2 de presión (Instituto Nacional de Tecnología y Cambio Climático, 2007).
         .row
-          .col-lg-3
+          .col-lg-3.col-md-4.col-5
             .tarjeta.color-verde.p-2.mb-4
               h4.mb-0.text-center Tóxicos
           .col-lg-12
@@ -153,13 +153,13 @@
     .row.align-items-center.mb-4
       .col-lg-7
         .row.mb-4
-          .col-lg-3
+          .col-lg-3.col-md-4.col-5
             .tarjeta.color-verde.p-2.mb-4
               h4.mb-0.text-center Inflamable
           .col-lg-12
             p.mb-0 Los residuos inflamables son aquellos capaces de causar un incendio en diferentes condiciones tales como fricción, absorción de humedad, cambios químicos espontáneos, y que al incendiarse arden tan vigorosa y persistentemente que pueden representar un riesgo (Instituto Nacional de Tecnología y Cambio Climático, 2007).
         .row
-          .col-lg-3
+          .col-lg-3.col-md-4.col-5
             .tarjeta.color-verde.p-2.mb-4
               h4.mb-0.text-center Infeccioso
           .col-lg-12
@@ -212,7 +212,7 @@
             p.mb-0 son sustancias emisoras de energía predecible y continua en forma alfa, beta o de fotones, cuya interacción con materia puede dar lugar a rayos X y neutrones. Debe entenderse que estos residuos contienen o están contaminados por radionúclidos en concentraciones o actividades superiores a los niveles de exención establecidos por la autoridad competente para el control del material radiactivo, y para los cuales no se prevé ningún uso (Ministerio del Medio Ambiente, 2002, p.26)
 
     .row.mb-4
-      .col-lg-3
+      .col-lg-3.col-md-6.col-7
         .row
           .col-10
             .tarjeta.color-primario.p-3
@@ -235,7 +235,7 @@
           img(src='@/assets/curso/tema3/4.png', alt='Texto que describa la imagen')
 
     .row.mb-4
-      .col-lg-3
+      .col-lg-3.col-md-6.col-7
         .row
           .col-10
             .tarjeta.color-primario.p-3

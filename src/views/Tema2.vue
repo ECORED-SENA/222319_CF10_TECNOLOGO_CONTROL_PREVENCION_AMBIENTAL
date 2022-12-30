@@ -13,7 +13,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8
         .row
-          .col-lg-4
+          .col-lg-4.col-md-6.col-8
             .tarjeta.color-primario.p-3.mb-4
               h4.mb-0 Definiciones (ver figura 1). 
           .col-lg-12
@@ -26,7 +26,7 @@
 
     .row.align-items-center.mb-4
       .col-lg-6
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-primario.mb-4
           .row(numero="1" titulo="Residuo sólido o desecho")
             .col-md-12
               p Es cualquier objeto, material, sustancia o elemento sólido resultante del consumo o uso de un bien en actividades domésticas, industriales, comerciales, institucionales, de servicios, que el generador abandona, rechaza o entrega y que es susceptible de aprovechamiento o transformación en un nuevo bien, con valor económico o de disposición final (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p. 4).
@@ -55,7 +55,7 @@
           img(src='@/assets/curso/tema2/img1.jpg', alt='Texto que describa la imagen')
     .row.align-items-center.mb-4
       .col-lg-6
-        figure
+        figure.mb-4 
           img(src='@/assets/curso/tema2/img2.jpg', alt='Texto que describa la imagen')
       .col-lg-6
         LineaTiempoD.color-primario
